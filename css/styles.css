@@ -52,9 +52,8 @@ text-decoration: none;
   left: 20%;
 }
 
-.main {
-  position: absolute;
-  left: 20%;
+.about {
+  position: inherit;
 }
 
 .contact {
@@ -87,8 +86,7 @@ text-decoration: none;
 .middle_container {
   background-color: #a71313;
   margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
 .quote_container {
@@ -118,23 +116,18 @@ text-decoration: none;
   padding: 0;
 }
 
+.picard {
+  max-width: 90%;
+}
+
 .starship {
+  max-width: 90%;
   margin: 10px;
 }
 
-#copyright {
+.copyright {
   color: #a71313;
   margin: 0 10%;
   padding: 0.5em 0 0.5em 0;
   font-size: 1em;
-}
-
-#main_bar {
-  color: #a71313;
-  margin: 0 10%;
-  font-size: 1.5em;
-}
-
-#picard {
-  max-width: 100%;
 }
