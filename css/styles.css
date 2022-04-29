@@ -30,6 +30,16 @@ img {
   margin: 10px;
 }
 
+a, a:visited, a:active {
+  color: #a71313;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d6a444;
+  text-decoration: none;
+}
+
 .btn {
 font-family: 'Sriracha', cursive;
 color: #a71313;
@@ -63,7 +73,7 @@ text-decoration: none;
 
 .body_text {
   color: #d6a444;
-  margin: Auto 20%;
+  margin: Auto 10%;
   padding-top: 1em;
   padding-bottom: 1em;
 }

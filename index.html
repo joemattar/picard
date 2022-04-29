@@ -11,11 +11,11 @@
   </head>
   <body>
     <div class="header">
-      <button class="btn main" type="button" name="main_button">MAIN</button>
-      <button class="btn about" type="button" name="about_button">ABOUT ME</button>
-      <button class="btn contact" type="button" name="contact_me_button">CONTACT ME</button>
+      <button class="btn main" type="button" name="main_button"><a href="#main_picard">MAIN</a></button>
+      <button class="btn about" type="button" name="about_button"><a href="#about_picard">ABOUT</a></button>
+      <button class="btn contact" type="button" name="contact_me_button"><a href="#contact_picard">CONTACT</a></button>
     </div>
-    <div class="top_container">
+    <div class="top_container" id="main_picard">
       <img class="profile_pic" src="./images/picard_facepalm_circle.png" alt="picard-facepalm-img">
       <h1>I'm Jean Luc.</h1>
       <h3>a starship captain!</h3>
@@ -27,7 +27,7 @@
       <p class="quote">Jean-Luc Picard, The First Duty</p>
     </div>
 
-    <div class="middle_container">
+    <div class="middle_container" id="about_picard">
       <p class="body_text">I was born to Maurice and Yvette Picard in La Barre, France, on 13 July 2305. As a child, I dreamed of joining Starfleet. I speak English, with the UK English dialect — the French language having become obscure by the 24th century.
         I have a special pride in being French. But I also have a number of British habits, including the regular consumption of Earl Grey tea, a fondness for Shakespeare (which I perform in holodeck simulations), riding horses with English tack and a
         knowledge of such British songs with Royal Navy associations as "A British Tar" (Gilbert and Sullivan) and "Heart of Oak".</p>
@@ -50,7 +50,7 @@
       <p class="quote">Jean-Luc Picard, Peak Generation</p>
     </div>
     <div class="footer">
-      <p class="copyright">©️ 2423 Jean Luc Picard @ Starfleet HQ, San Francisco, Earth.</p>
+      <p class="copyright" id="contact_picard">©️ 2423 Jean Luc Picard @ Starfleet HQ, San Francisco, Earth.</p>
     </div>
 
   </body>
