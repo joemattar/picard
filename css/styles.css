@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #a71313;
+  font-family: 'Shrikhand', cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+h3 {
+  color: #a71313;
+  font-family: 'Shrikhand', cursive;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+p {
+  font-family: 'Sriracha', cursive;
+  font-size: 1.5rem;
+}
+
+img {
+  margin: 10px;
+}
+
+.btn {
+font-family: 'Sriracha', cursive;
+color: #a71313;
+font-size: 1.5em;
+background: #d6a444;
+border: none;
+padding: 0 0.5em;
+margin: 0.1em 0;
+text-decoration: none;
+}
+
+.btn:hover {
+color: #d6a444;
+background: #a71313;
+text-decoration: none;
+}
+
+.main {
+  position: absolute;
+  left: 20%;
+}
+
+.main {
+  position: absolute;
+  left: 20%;
+}
+
+.contact {
+  position: absolute;
+  right: 20%;
+}
+
+.body_text {
+  color: #d6a444;
+  margin: Auto 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.header {
+  background-color: #d6a444;
+  padding: 0 20%;
+  position: sticky;
+  top: 0;
+}
+
+.top_container {
+  background-color: #d6a444;
+  align-self: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.middle_container {
+  background-color: #a71313;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quote_container {
+  background-color: #2b53a7;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: #d6a444;
+  margin: auto;
+}
+
+.gif {
+  height: 250px;
+}
+
+.profile_pic {
+  margin: 10px;
+  width: 200px;
+}
+
+.quote {
+  color: #d6a444;
+  margin: 0 10%;
+  padding: 0;
+}
+
+.starship {
+  margin: 10px;
+}
+
+#copyright {
+  color: #a71313;
+  margin: 0 10%;
+  padding: 0.5em 0 0.5em 0;
+  font-size: 1em;
+}
+
+#main_bar {
+  color: #a71313;
+  margin: 0 10%;
+  font-size: 1.5em;
+}
+
+#picard {
+  max-width: 100%;
+}
